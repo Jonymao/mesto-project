@@ -1,16 +1,20 @@
 .profile__title-text {
   margin: 0;
-  max-height: 294px;
-  padding: 0 18px 16px 0;
+  padding-right: 18px;
   font-style: normal;
   font-weight: 500;
   font-size: 42px;
   line-height: 48px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 294px;
 }
 
 @media screen and (max-width: 425px) {
   .profile__title-text {
     font-size: 27px;
+    padding-right: 10px;
     line-height: 33px;
     text-align: center;
   }
