@@ -1,5 +1,6 @@
 .profile__title-text {
   margin: 0;
+  max-width: 294px;
   padding-right: 18px;
   font-style: normal;
   font-weight: 500;
@@ -8,7 +9,6 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 294px;
 }
 
 @media screen and (max-width: 425px) {
